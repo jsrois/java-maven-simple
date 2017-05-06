@@ -7,7 +7,14 @@ public class One {
     return message;
   }
 
-  public void uncoveredMethod() {
+  //WOW THIS IS A COMMENT
+  private void uncoveredMethod() {
     System.out.println(foo());
   }
+
+
+  private void AnotherUncoveredMethod() {
+    System.out.println(foo());
+  }
+
 }
